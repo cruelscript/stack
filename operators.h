@@ -1,0 +1,13 @@
+#ifndef STACK_OPERAND_H
+#define STACK_OPERAND_H
+
+enum operators
+{
+	OPENING_BRACKET,
+	CLOSING_BRACKET,
+	PLUS_MINUS,
+	MUL_DIV,
+	POWER
+};
+
+#endif // !STACK_OPERAND_H
